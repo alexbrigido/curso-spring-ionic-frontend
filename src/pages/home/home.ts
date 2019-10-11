@@ -17,7 +17,7 @@ export class HomePage {
 	  this.menu.swipeEnable(false);
   }
 
-  // enable menu on initial screen
+  // enable menu pos initial screen
   ionViewDidLeave() {
 	  this.menu.swipeEnable(true);
   }
